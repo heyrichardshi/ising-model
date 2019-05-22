@@ -1,0 +1,25 @@
+{
+  "name": "ising-model",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyrichardshi/ising-model.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heyrichardshi/ising-model/issues"
+  },
+  "homepage": "https://github.com/heyrichardshi/ising-model#readme",
+  "devDependencies": {
+    "eyeglass": "^2.4.1"
+  },
+  "dependencies": {
+    "bourbon": "^5.1.0"
+  }
+}
