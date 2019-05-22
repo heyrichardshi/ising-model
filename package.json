@@ -20,6 +20,8 @@
     "eyeglass": "^2.4.1"
   },
   "dependencies": {
-    "bourbon": "^5.1.0"
+    "bourbon": "^5.1.0",
+    "bourbon-neat": "^3.0.1",
+    "normalize-scss": "^7.0.1"
   }
 }
