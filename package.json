@@ -1,10 +1,12 @@
 {
   "name": "ising-model",
   "version": "1.0.0",
-  "description": "",
+  "description": "ising model on the web",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node-sass": "./node_modules/.bin/node-sass",
+    "sass": "node-sass --watch scss -o css"
   },
   "repository": {
     "type": "git",
@@ -16,12 +18,11 @@
     "url": "https://github.com/heyrichardshi/ising-model/issues"
   },
   "homepage": "https://github.com/heyrichardshi/ising-model#readme",
-  "devDependencies": {
-    "eyeglass": "^2.4.1"
-  },
+  "devDependencies": {},
   "dependencies": {
     "bourbon": "^5.1.0",
     "bourbon-neat": "^3.0.1",
-    "normalize-scss": "^7.0.1"
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1"
   }
 }
